@@ -1,0 +1,41 @@
+.thankyou-section {
+	padding: 7em 2em 2em 2em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	overflow: hidden;
+	background-color: black;
+	.text-box {
+		text-align: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		color: white;
+	}
+	.main-paragraph {
+		font-size: 2rem;
+		font-weight: bold;
+		margin: 2em 0em;
+	}
+
+	.last-paragraph {
+		margin: 2em 0em;
+		font-size: 2rem;
+	}
+}
+
+@media (min-width: 768px) {
+	.thankyou-section {
+		background-color: white;
+		.text-box {
+			background-color: black;
+			height: 600px;
+			width: 600px;
+			padding: 8em;
+			border-radius: 600px;
+		}
+	}
+}

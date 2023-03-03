@@ -1,0 +1,63 @@
+@keyframes grow {
+	0% {
+		transform: scale(1);
+	}
+
+	100% {
+		transform: scale(80);
+		z-index: -1;
+	}
+}
+
+@keyframes hide-background {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+		z-index: -1;
+	}
+}
+
+.img-box {
+	position: relative;
+}
+.img-box::before {
+	content: '';
+	position: absolute;
+	top: 4px;
+	left: 101px;
+	width: 85px;
+	height: 85px;
+	border-radius: 85px;
+	background-color: white;
+	animation: grow 3s 1s forwards;
+}
+.first-hero-img {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: black;
+	z-index: 4000;
+	overflow: hidden;
+	animation: hide-background 1s 1.5s forwards;
+}
+.first-hero-logo {
+	height: 100px;
+}
+
+.hero-img {
+	position: relative;
+	height: 100vh;
+	width: 100%;
+	background-image: url(../images/pr-4/8.jpg);
+	background-size: cover;
+	background-position: right 30% bottom 65%;
+	z-index: -1;
+}
