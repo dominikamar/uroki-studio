@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/uroki-studio/static/css/main.adc71e2a.css",
+    "main.js": "/uroki-studio/static/js/main.79427621.js",
+    "static/media/10.jpg": "/uroki-studio/static/media/10.9553560c1a67db17cffa.jpg",
+    "static/media/4.jpg": "/uroki-studio/static/media/4.08a1737348abdaff06e2.jpg",
+    "static/media/1.jpg": "/uroki-studio/static/media/1.52bf3044ac897a489c66.jpg",
+    "static/media/2.jpg": "/uroki-studio/static/media/2.82c2e9c18035a3f5fadd.jpg",
+    "static/media/9.jpg": "/uroki-studio/static/media/9.f0f2e06f1cd6158a4f88.jpg",
+    "static/media/11.jpg": "/uroki-studio/static/media/11.d72850728ac52f5941aa.jpg",
+    "static/media/6.jpg": "/uroki-studio/static/media/6.310394178365a0544fb7.jpg",
+    "static/media/13.jpg": "/uroki-studio/static/media/13.d8501930072a123487e7.jpg",
+    "static/media/5.jpg": "/uroki-studio/static/media/5.dcb5b25cc0bb8c69d8f5.jpg",
+    "static/media/3.jpg": "/uroki-studio/static/media/3.4d932829bc6179c3d9c5.jpg",
+    "static/media/8.jpg": "/uroki-studio/static/media/8.db6a0b000f1bdddeb583.jpg",
+    "static/media/7.jpg": "/uroki-studio/static/media/7.bfd23753f5e296965c81.jpg",
+    "static/media/12.jpg": "/uroki-studio/static/media/12.a5208d24dcf474a9ee7a.jpg",
+    "static/media/logo.png": "/uroki-studio/static/media/logo.ba8324ad62a0977daf09.png",
+    "static/media/logo-white.png": "/uroki-studio/static/media/logo-white.2c624091cc2891b3a6ff.png",
+    "static/media/about-us.jpg": "/uroki-studio/static/media/about-us.ef7152501b0740cb0b12.jpg",
+    "index.html": "/uroki-studio/index.html",
+    "main.adc71e2a.css.map": "/uroki-studio/static/css/main.adc71e2a.css.map",
+    "main.79427621.js.map": "/uroki-studio/static/js/main.79427621.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.adc71e2a.css",
+    "static/js/main.79427621.js"
+  ]
+}
